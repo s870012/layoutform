@@ -1,0 +1,32 @@
+//dropdown
+.dropdown-toggle-c{
+    white-space: nowrap;
+    &::before {
+        vertical-align: 0;
+      }
+}
+.dropdown-menu{
+    border: 0 !important;
+}
+//btn
+.btn-hover{
+    color: $color-white;
+    background-color: $color-hover;
+    &:hover{
+        background-color: darken($color-hover, $amount: 0) !important;
+    }
+}
+.btn-outline-hover{
+    border: 1px solid $color-hover;
+    color: $color-hover;
+    &:hover{
+        background-color: $color-hover !important;
+        color: $color-white !important;
+    }
+}
+.btn-form{
+    padding: 8px 32px;
+}
+.btn-zip{
+    padding: 10px 16px 10px 12px;
+}

@@ -1,0 +1,78 @@
+//main
+.content{
+    width: 984px;
+    margin-left: auto;
+}
+//width、height
+.w-48{
+    width: 48px;
+}
+.h-48{
+    height: 48px;
+}
+.h-320{
+    height: 320px;
+}
+.w-320{
+    width: 320px;
+}
+.w-584{
+    width: 584px;
+}
+
+//margin、padding
+.mb-32{
+    margin-bottom: 32px;
+}
+.px-32{
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.py-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.p-32{
+    padding: 32px;
+}
+
+//font-size
+.fs-7{
+    font-size: 0.75rem !important;
+}
+
+//container
+.container{
+    width: 1280px;
+}
+
+//hover
+.hover{
+    &:hover{
+        color: $color-hover;
+    }
+}
+.hover-gray{
+    &:hover{
+        background-color: $color-background;
+    }
+}
+//btn
+.btn-file{
+    padding: 8px 16px 8px 12px ;
+    border: 1px solid $color-border;
+}
+
+//border
+.rounded-2px{
+    border-radius: 0.125rem !important;
+}
+
+//color
+.color-time{
+    color: $color-time;
+}
+//background
+.bg-gray{
+    background-color: $color-background;
+}
